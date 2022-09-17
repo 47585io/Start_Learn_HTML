@@ -1,0 +1,50 @@
+select {
+	appearance: none;
+	background: white;
+	outline: none;
+	border: 0px;
+	font-size: 20px;
+	height: 40px;
+}
+
+.opt {
+	display: none;
+}
+
+.blackblock {
+	background-color: #1d2126;
+	width: 288px;
+	height: 3700px;
+	position: relative;
+	left: 72px;
+	top: -1000px;
+}
+
+.blackblock2 {
+	background-color: #1d2126;
+	width: 2650px;
+	height: 40px;
+	position: absolute;
+	left: 360px;
+	top: 50px;
+}
+
+.grey {
+	background-color: #282c34;
+}
+
+.ch {
+	width: 72px;
+	height: 1000px;
+}
+
+li {
+	width: 288;
+	color: white;
+}
+
+.ul {
+	background-color: #282c34;
+	color: white;
+	height: 25px;
+}
