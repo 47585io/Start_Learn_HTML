@@ -27,6 +27,12 @@
 				onclick="alert('你好，世界!')">
  				<img src="vs.jpg" class="first  "/>
 			</button>
+			<button class="first left hei_t grey2 del"
+			type="button" 
+				onclick="alert('...')">
+            <img src="vs2.jpg" class="first  "style="top: 3900px;"/>
+			</button>
+			
 		</div >
 
 		<div class="blackblock">
@@ -50,13 +56,13 @@
 				<dt>My Furry...</dt>
 			</dl>
 			<ul>
-				<li>index.html</li>
+				<li><a href="../index.html">index.html</a></li>
 				<br/>
-				<li>index.css</li>
+				<li><a href="../css.html">index.css</a></li>
 				<br/>
-				<li>how_is.js</li>
+				<li><a href="../js.html">how_is.js</a></li>
 				<br/>
-				<li>furry.jpg</li>
+				<li><a href="../index.html">furry.jpg</a></li>
 				<br/>
 			</ul>
 			<dl class="ul fg">
@@ -70,35 +76,52 @@
 		<div class="blackblock2 del" style="left:368px">	
 			<div  class="grey edit_li" 
 			align="center">
-			furry.jpg&nbsp;&nbsp;&nbsp;&nbsp;×
-		    </div>   
+			<a href="../none.html">furry.jpg&nbsp;&nbsp;&nbsp;&nbsp;×</a>
+		    </div> 
+            <a href="../Frame.html">
+			<img class="right" style="right: 10px; " src="vs3.jpg"></img> 
+            </a>
 		</div>
 
 		<div class="grey edit" >
-	    	<img src="summer.jpg" alt="wating...">
-	    </div>
+	    	<img src="summer.jpg" alt="wating..." 
+			usemap="#furry" 
+			style="position: absolute; left:60px;top:60px"/>
+	    <map name="furry" >
+			<area href="./" shape="rect" coords="0,0,1000,1000"/>
+		</map>
+		
+		</div>
 
 		<div class="black first wid fg "
+			align="right"
 			style="height:50px;
 	  		top:4100px;">
-        <a href="./" >it is here</a>
+       
 		&nbsp;&nbsp;&nbsp;&nbsp;
-		<audio src="1.wav" controls="true" ></audio>
+		
+		<audio loop="loop" autoplay="autoplay" src="1.wav" controls="true" ></audio>
 		&nbsp;&nbsp;&nbsp;&nbsp;
-		<a>Talk On Twiter: @me</a>
-	    </div>
+	    <a style="position: relative; top:-20px; right:10px">打上花火</a>
+		</div>
 
 	<code class="fg">
 	<hr/>
-	<button class="del grey fg">Code</button>
+	<button class="del grey fg"
+	type="button" 
+     onclick="alert('已经 in Coding')">Code</button>
 	&nbsp;
-	<button class="del grey fg">问题</button>
+	<button class="del grey fg"
+	type="button" onclick="alert('没有问题')">问题</button>
 	&nbsp;
-	<button class="del grey fg">输出</button>
+	<button class="del grey fg" type="button" 
+     onclick="alert('没有输出')">输出</button>
 	&nbsp;
-	<button class="del grey fg">调试 Console</button>
+	<button class="del grey fg"type="button" 
+     onclick="alert('没有调试Computer')">调试 Console</button>
 	&nbsp;
-	<button class="del grey fg">Termail</button>
+	<button class="del grey fg"type="button" 
+     onclick="alert('Pipie Broken')">Termail</button>
 	<br/>
 	
 	 <pre >
@@ -134,8 +157,16 @@
  	        min_val=min(current_end_word_ids)
  	        min_index=current_end_word_ids.index(min_val)
  	        check_words_goto_id_indexs[min_index]+=1
-	 </pre>
-	 <div class="fg termail" style="border: 10px">Coding</div>
+	    
+		</pre>
+	 <div class="termail" align="left">
+		<br/>
+		<br/>
+		<ul align="left" >
+			
+			<li align="left">MidSummer-with-Dog.Config</li>
+		</ul>
+	</div>
 	</code>
 	
 	</body>	

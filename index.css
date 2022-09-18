@@ -86,10 +86,10 @@ li {
 .blackblock2 {
 	background-color: #1d2126;
 	width: 2650px;
-	height: 40px;
+	height: 50px;
 	position: absolute;
 	left: 360px;
-	top: 50px;
+	top: 40px;
 }
 
 .edit_li {
@@ -101,15 +101,31 @@ li {
 
 .edit {
 	position: absolute;
-	left: 500px;
-	top: 220px;
+	left: 380px;
+	top: 100px;
+}
+
+textarea {
+	background: #282c34;
+	color: #abb2bf;
+	border: 0px;
+	outline: 0px;
+	position: absolute;
+	top: 50px;
+	left: 60px;
+	caret-color: #61afef;
+	width: 2132px;
+	height: 3500px;
+	font-size: 6px;
+}
+
+.totos {
+	filter: opacity(40%);
 }
 
 a {
-	color: aquamarine;
-	position: relative;
-	top: -20px;
-	padding: 10px;
+	color: #abb2bf;
+	text-decoration: none;
 }
 
 code {
@@ -123,6 +139,15 @@ code {
 
 .termail {
 	position: absolute;
-	top: 20px;
-	left: 2900px;
+	top: 60px;
+	left: 2750px;
+	border-left: 1px solid #abb2bf;
+	width: auto;
+	height: auto;
+}
+
+.right {
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
