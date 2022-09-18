@@ -5,19 +5,82 @@ select {
 	border: 0px;
 	font-size: 20px;
 	height: 40px;
+	width: 70px;
 }
 
 .opt {
 	display: none;
 }
 
+.first {
+	/*every the first label in frame, usually can use it */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.hei {
+	/*height in body */
+	height: 4100px;
+}
+
+.wid {
+	/*width in body */
+	width: 3018px;
+}
+
+.black {
+	background-color: #1d2126;
+}
+
+.grey {
+	background-color: #282c34;
+}
+
+.grey2 {
+	background-color: #23282e;
+}
+
+.fg {
+	color: #abb2bf;
+}
+
+.left {
+	width: 72px;
+}
+
+.left2 {
+	width: 288px;
+}
+
+.hei_t {
+	top: 40px;
+}
+
+.del {
+	padding: 0px;
+	margin: 0px;
+	outline: 0px;
+	border: 0px;
+}
+
+li {
+	width: 288;
+	color: #abb2bf;
+}
+
+.ul {
+	background-color: #282c34;
+	height: 25px;
+}
+
 .blackblock {
 	background-color: #1d2126;
 	width: 288px;
-	height: 3700px;
-	position: relative;
+	height: 4100px;
+	position: absolute;
 	left: 72px;
-	top: -1000px;
+	top: 40px;
 }
 
 .blackblock2 {
@@ -29,22 +92,37 @@ select {
 	top: 50px;
 }
 
-.grey {
-	background-color: #282c34;
-}
-
-.ch {
-	width: 72px;
-	height: 1000px;
-}
-
-li {
-	width: 288;
+.edit_li {
 	color: white;
+	width: 150px;
+	height: 50px;
+	padding-top: 10px;
 }
 
-.ul {
+.edit {
+	position: absolute;
+	left: 500px;
+	top: 220px;
+}
+
+a {
+	color: aquamarine;
+	position: relative;
+	top: -20px;
+	padding: 10px;
+}
+
+code {
 	background-color: #282c34;
-	color: white;
-	height: 25px;
+	color: azure;
+	position: absolute;
+	left: 0px;
+	top: 4200px;
+	width: 3010px;
+}
+
+.termail {
+	position: absolute;
+	top: 20px;
+	left: 2900px;
 }
